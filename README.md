@@ -6,5 +6,3 @@ A fun python game in which u can compete with computer and defeat it .
 
 
 
-# stone-paper-scissor-python
-A simple command line game with python , without any graphics just a simple game which u can play on python idle mode.
