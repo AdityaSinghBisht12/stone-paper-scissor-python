@@ -35,11 +35,17 @@ def Stone_Paper_Scissor():
             else:
                 Computer_Score+=0
                 Your_Score+=0
+
+            #Scores are displayed through this block
             print("Your Score is",Your_Score)
             print("Computer's Score is",Computer_Score)
             print("-"*40)
+
+            #block to make ur game playable by pressing enter key
             print("Press enter key to play again")
             j=input("enter X to stop game \n ----------------------------------------")
+
+            #block which decides the final score and displays it
             if j.lower() == "x":
                 print("thank you for playing")
                 if Your_Score > Computer_Score:
